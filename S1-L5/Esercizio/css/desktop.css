@@ -1,0 +1,205 @@
+/* Font
+Body: #393d41 – 1.2rem – Open Sans – interlinea 1.65
+Headings: #25a2c3 – Montserrat (bold) – interlinea 1.5
+Footer: #c8e7f0
+Footer Heading: white
+Footer link: #c8e7f0
+
+Colori sfondo
+Header: black
+Pulsante: #f04c2f – Montserrat (bold) – bold
+Testimonianze: #e22d0e
+Footer: #25a2c3
+
+Bordi
+Bordo schede: #dee1e3
+ */
+  
+ .open-sans{
+    font-family: "Open Sans", sans-serif;
+  }
+  
+ 
+ .montserrat {
+   font-family: "Montserrat", sans-serif;
+   
+ }
+  body{
+ color: #393d41;
+ font-family: "Open Sans", sans-serif;
+ font-size: 1.2rem;
+ min-width: 1366px;
+ max-width: 1920px;
+ margin: 0 auto;
+ line-height: 1.65;
+ }
+ 
+
+ header{
+    text-align: center;
+     font-family: "Montserrat", sans-serif;
+     font-weight : 700;
+     color: #25a2c3;
+     background-image: url(/S1-L5/Esercizio/images/banner.jpg);
+     background-position: top 50px right 100px;
+     background-size: cover;
+ }
+ #logo{
+    text-align: left;
+    padding-left: 1em;
+     background-color: black;
+     margin-bottom: 3em;
+ }
+ img{
+     margin: 1em 1em;
+     width: 150px;
+     height: 50px;
+ }
+ h1{
+     line-height: 1.5;
+     padding: 0 0.5em;
+     margin-top: 4em;
+     font-size: 2em;
+     width: 100%;
+ }
+ header p{
+    padding-bottom: 2em;
+     margin: 0 auto;
+     width: 55%;
+ color: #393d41;
+ font-family: "Open Sans", sans-serif;
+ font-size: 1.2rem;
+ font-weight: 400;
+ text-align: center;
+ }
+ 
+ header button{
+    
+     width: 150px;
+     height: 40px;
+     margin-bottom: 10em;
+     background-color: #f04c2f;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 700;
+     color: white;
+     border-radius: 3px;
+     border:none;
+ }
+ main section{
+    position: relative;
+    translate: 800px -350px;
+    text-align: left ;
+    width: 40%;
+     margin-top: 2em;
+     
+ }
+ 
+ .up{
+    margin: 1em;
+    color: #25a2c3;
+    font-weight: 700;
+ }
+ 
+ .down{
+    width: 100%;
+    padding-bottom: 1em;
+ }
+ #notebook{
+    position: relative;
+    translate: 150px 200px;
+     height: 500px;
+     width: 500px;
+     border-radius: 50%;
+ }
+ #trust{
+    position: relative;
+    translate: 0 -150px;
+     margin: 0.5em auto;
+     color: white;
+     text-align: center;
+     background-color: #f04c2f;
+ }
+ h2{
+ 
+     margin: 1.2em auto;
+     padding-top: 1.5em;
+     font-size: 2.5em;
+     width: 100%;
+     font-weight: bold;
+ }
+ #trust p{
+    font-size: 1.5em;
+     margin: 0 auto;
+     font-style: italic;
+     width: 80%;
+     margin-bottom: 2em;
+ }
+ #garantisce{font-size: 1.5em;}
+ #garantisce div{
+    font-size: 0.8em;
+     padding-bottom: 5em;
+ }
+ .must1{
+    position: relative;
+    translate: 50px -100px;
+     width: 380px;
+     border: 0.5px solid #dee1e3 ;
+     margin-top: 2em;
+     border-radius: 5px;
+     overflow: hidden;
+ }
+ .must2{
+    position: relative;
+    translate: 770px -560px;
+     width: 380px;
+     border: 0.5px solid #dee1e3 ;
+     margin-top: 2em;
+     border-radius: 5px;
+     overflow: hidden;
+ }
+ .must3{
+    position: relative;
+    translate: 1490px -1020px;
+     width: 380px;
+     border: 0.5px solid #dee1e3 ;
+     margin-top: 2em;
+     border-radius: 5px;
+     overflow: hidden;
+ }
+ .pc{
+     margin: 0 auto;
+     height: 250px;
+     width: 100%;
+ }
+ .must1, .must2, .must3 p{
+     padding-bottom: 1.5em;
+     padding-right: 0.8em;
+     padding-left: 0.8em;
+ }
+ footer{
+    position: relative;
+    translate: 0px -890px;
+     margin: 2em auto;
+     text-align: center;
+     color:white;
+     background-color: #25a2c3;
+ }
+ #contact{
+ margin-top: 1.5em;
+ 
+ }
+ a,footer p{
+ display: block;
+ color: #c8e7f0;
+ }
+ footer hr{
+     margin: 1.5em auto;
+     width: 200px;
+ 
+ }
+ footer .fas{
+     margin-right: 0.2em;
+ }
+ footer p{
+     padding-bottom: 1.5em;
+ }
